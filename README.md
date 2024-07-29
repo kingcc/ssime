@@ -8,7 +8,7 @@ This project is a TypeScript & WASM port of [dssim](https://github.com/kornelski
 ### Usage
 
 ```shell
-$ deno run --allow-read src/image_similarity.ts <base_image> <images...>
+$ deno run --allow-all src/image_similarity.ts <base_image> <images...>
 ```
 
 ```ts
