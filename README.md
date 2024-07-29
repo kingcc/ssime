@@ -11,6 +11,8 @@ This project is a TypeScript & WASM port of [dssim](https://github.com/kornelski
 $ deno run --allow-all src/image_similarity.ts <base_image> <images...>
 ```
 
+For Deno:
+
 ```ts
-import { compare } from "ssime";
+import { compare } from "https://deno.land/x/ssime@1.0.0/pkg/image_similarity.js";
 ```
